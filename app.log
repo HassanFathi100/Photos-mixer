@@ -10,15 +10,17 @@
 186 - DEBUG - STREAM b'IDAT' 159 32768
 186 - DEBUG - STREAM b'tEXt' 163326 37
 186 - DEBUG - STREAM b'tEXt' 163375 37
-153 - INFO - the application has been reseted
 186 - DEBUG - STREAM b'IHDR' 16 13
 186 - DEBUG - STREAM b'gAMA' 41 4
 186 - DEBUG - STREAM b'cHRM' 57 32
 186 - DEBUG - STREAM b'bKGD' 101 6
 698 - DEBUG - b'bKGD' 101 6 (unknown)
-186 - DEBUG - STREAM b'pHYs' 119 9
-186 - DEBUG - STREAM b'tIME' 140 7
-698 - DEBUG - b'tIME' 140 7 (unknown)
-186 - DEBUG - STREAM b'IDAT' 159 32768
-186 - DEBUG - STREAM b'tEXt' 163326 37
-186 - DEBUG - STREAM b'tEXt' 163375 37
+186 - DEBUG - STREAM b'tIME' 119 7
+698 - DEBUG - b'tIME' 119 7 (unknown)
+186 - DEBUG - STREAM b'IDAT' 138 32768
+186 - DEBUG - STREAM b'tEXt' 215061 37
+186 - DEBUG - STREAM b'tEXt' 215110 37
+230 - INFO - comp1 is Mag
+234 - INFO - comp1 is Phase
+249 - INFO - components are multiplied
+115 - INFO - tools are enabled

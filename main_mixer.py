@@ -114,10 +114,12 @@ class MainWindow(QtWidgets.QMainWindow , image_mixer.Ui_MainWindow):
                 self.mixing()
                 logger.info("tools are enabled")
         
-          
+        try: 
             self.comp_img(i) 
             self.display(self.img_array , self.widgets[i] , self.img[0].img_shape)
 
+        except:
+            return None
         
     # Display image in widget    
     def display(self , data , widget , img_shape):

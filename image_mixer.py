@@ -462,6 +462,7 @@ class Ui_MainWindow(object):
         self.resetButton.setShortcut(_translate("MainWindow", "Ctrl+O"))
         self.menuFile.setTitle(_translate("MainWindow", "File"))
         self.actionOpen.setText(_translate("MainWindow", "Open"))
+        self.actionOpen.setShortcut(_translate("MainWindow", "Ctrl+O"))
 from pyqtgraph import ImageView
 
 
